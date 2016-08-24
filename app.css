@@ -1,0 +1,83 @@
+body {
+  background: linear-gradient(#191b1d, black);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+div {
+  position: relative;
+}
+
+h1, h2, h3, h4, p { 
+  color: #fff;
+  font-family: "Raleway";
+
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+p { 
+  font-size: 12px;
+  font-weight: 300;
+}
+
+#chart { 
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top:20;
+  left:0;
+  z-index: 0;
+}
+
+#gooey { 
+  position: absolute;
+  top: 0;
+  float: center;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+
+canvas { 
+  position: absolute;
+  background: none;
+  z-index: -1;
+
+}
+button {
+    border: .5px dotted white;
+    background: none;
+    color: white;
+    width: 20%;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    vertical-align: center;
+}
+
+button text {
+    text-transform: uppercase;
+    vertical-align: center;
+}
+
+button:hover, button:active, button:focus {
+    font-weight: 700;
+    outline:none;
+    background: rgba(255, 255, 255, .1);
+}

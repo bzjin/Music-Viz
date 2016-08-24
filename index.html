@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head lang="en">
+	<meta charset="utf-8">
+	<title>Music Viz</title>
+
+	<!-- D3 Library --> 
+	<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<script src="http://d3js.org/queue.v1.min.js"></script>
+	<!-- Tooltip -->
+	<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,700" rel="stylesheet">
+	<!-- Jquery -->
+	<script src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<!-- Bootstrap-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="app.css"/>
+</head>
+
+<body>
+<div class="col-md-12">
+	<h1>Baited - Electracado Viz</h1>
+	<button id="start"> Start Viz and Music</button>
+	<audio id="song">
+	  <source src="baited.mp3" type="audio/mp3">
+	</audio>
+	<div id="chart" class="col-md-12"></div>
+	<canvas width="960" height="500"></canvas>
+
+</div>
+
+</body>
+	<script src="app.js"></script>
+
+</html>
